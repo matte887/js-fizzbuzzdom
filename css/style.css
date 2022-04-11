@@ -1,0 +1,43 @@
+:root {
+    /* Colors */
+    --background-color: #083b4c;
+    --box-blue: #1389b2;
+    --box-green: #0bd6a1;
+    --box-yellow: #ffd165;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin: .5rem;
+    background-color: var(--box-yellow);
+}
