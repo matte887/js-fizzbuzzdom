@@ -27,7 +27,7 @@
     background-color: var(--box-yellow);
 }
 
-.fizz-buzz {
+.fizzbuzz {
     background-color: var(--box-red);
 }
 
@@ -46,7 +46,7 @@ h1 {
 
 .container {
     margin: 1rem auto;
-    width: 80%;
+    width: 50%;
 }
 
 .box-wrapper {
@@ -57,9 +57,9 @@ h1 {
 }
 
 .box {
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
     margin: .5rem;
 }
