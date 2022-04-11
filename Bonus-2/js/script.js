@@ -9,13 +9,11 @@ for (let i = 1; i <= 100; i++) {
         FizzBuzz = "fizz"; 
     } else if (i % 5 === 0) {
         FizzBuzz = "buzz";
+    } else {
+        FizzBuzz = "bg-blue";
     }
     console.log(i, FizzBuzz);
 
     // Appendere un elemento HTML ad ogni i
-    if (FizzBuzz === "fizz-buzz" || FizzBuzz === "fizz" || FizzBuzz === "buzz") {
-        document.querySelector(".box-wrapper").innerHTML += `<div class="box">${FizzBuzz}</div>`;
-    } else {
-        document.querySelector(".box-wrapper").innerHTML += `<div class="box">${i}</div>`;
-    }
+    document.querySelector(".box-wrapper").innerHTML += `<div class="box ${FizzBuzz}">${i}</div>`;
 }
