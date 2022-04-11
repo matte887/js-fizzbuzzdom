@@ -4,6 +4,7 @@
     --box-blue: #1389b2;
     --box-green: #0bd6a1;
     --box-yellow: #ffd165;
+    --box-red: #f0466f;
 }
 
 /* RESET */
@@ -18,12 +19,16 @@
     background-color: var(--box-blue);
 }
 
-.bg-green {
+.fizz {
     background-color: var(--box-green);
 }
 
-.bg-yellow {
+.buzz {
     background-color: var(--box-yellow);
+}
+
+.fizz-buzz {
+    background-color: var(--box-red);
 }
 
 /* COMMON */
@@ -36,6 +41,7 @@ body {
 h1 {
     color: white;
     text-align: center;
+    font-size: 5rem;
 }
 
 .container {
@@ -56,5 +62,4 @@ h1 {
     line-height: 80px;
     text-align: center;
     margin: .5rem;
-    background-color: var(--box-yellow);
 }
