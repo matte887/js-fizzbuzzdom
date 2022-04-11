@@ -6,15 +6,32 @@
     --box-yellow: #ffd165;
 }
 
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* UTILITY */
+.bg-blue {
+    background-color: var(--box-blue);
+}
+
+.bg-green {
+    background-color: var(--box-green);
+}
+
+.bg-yellow {
+    background-color: var(--box-yellow);
+}
+
+/* COMMON */
 body {
     background-color: var(--background-color);
 }
+
+/* CONTAINER */
 
 h1 {
     color: white;
