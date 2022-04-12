@@ -9,6 +9,7 @@ for (let i = 1; i <= 100; i++) {
         FizzBuzz = "fizz"; 
     } else if (i % 5 === 0) {
         FizzBuzz = "buzz";
-    }
-    console.log(i, FizzBuzz);
+    } else FizzBuzz = i;
+
+    console.log(FizzBuzz);
 }
