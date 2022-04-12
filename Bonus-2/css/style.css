@@ -19,15 +19,15 @@
     background-color: var(--box-blue);
 }
 
-.fizz {
+.bg-green {
     background-color: var(--box-green);
 }
 
-.buzz {
+.bg-yellow {
     background-color: var(--box-yellow);
 }
 
-.fizzbuzz {
+.bg-red {
     background-color: var(--box-red);
 }
 
